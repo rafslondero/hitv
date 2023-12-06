@@ -1,0 +1,8 @@
+{
+  "name": "Hitv",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "cd226418"
+}
