@@ -10,10 +10,12 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
+import { downloadOutline, ellipse, heart, heartCircleOutline, heartOutline, home, homeOutline, search, searchOutline, square, triangle } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
+
+import './App.css';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -33,11 +35,12 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import Tab4 from './pages/Tab4';
 
 setupIonicReact();
 
 const App: React.FC = () => (
-  <IonApp>
+  <IonApp className='tabs'>
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
@@ -50,22 +53,29 @@ const App: React.FC = () => (
           <Route path="/tab3">
             <Tab3 />
           </Route>
+          <Route path="/tab4">
+            <Tab4 />
+          </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon aria-hidden="true" icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+            <IonIcon aria-hidden="true" icon={homeOutline} />
+            <IonLabel>Home</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon aria-hidden="true" icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
+            <IonIcon aria-hidden="true"  icon={heartOutline}/>
+            <IonLabel>Favoritos</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+            <IonIcon aria-hidden="true"  icon={downloadOutline}/>
+            <IonLabel>Downloads</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="tab4" href="/tab4">
+            <IonIcon aria-hidden="true" icon={searchOutline} />
+            <IonLabel>Procurar</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

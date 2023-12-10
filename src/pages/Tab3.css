@@ -1,0 +1,31 @@
+.header {
+    color: #f4f5f8;
+}
+
+.person {
+    color: #614BA7;
+}
+
+.swiper {
+    color: #f4f5f8;
+    margin-left: 10px;
+}
+
+.titulosSeries {
+    color: white;
+    margin-left: 10px;
+}
+
+#iconeH {
+    width: 45px;
+    margin-left: 40%
+}
+
+.primeiroslide {
+    margin-left: 10px;
+}
+
+.desc {
+    color: #f4f5f8;
+    font-size: 12px;
+}

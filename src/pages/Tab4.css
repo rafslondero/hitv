@@ -1,0 +1,42 @@
+.pesquisar {
+    border-radius: 10px;
+    --ion-background-color: #322F35;
+    color: white;
+}
+
+.header {
+    color: #f4f5f8;
+}
+
+.person {
+    color: #614BA7;
+}
+
+.swiper {
+    color: #f4f5f8;
+}
+
+.titulosSeries {
+    color: white;
+}
+
+#iconeH {
+    width: 50px;
+    margin-left: 40%
+}
+
+.primeiroslide {
+  margin-left: 3px; 
+}
+
+.categorias {
+    width: 90px;
+    height: 30px;
+    background: #614BA7;
+    color: #f4f5f8;
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

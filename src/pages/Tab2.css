@@ -1,0 +1,63 @@
+.header {
+    color: #f4f5f8;
+}
+
+.person {
+    color: #614BA7;
+}
+
+.swiper {
+    color: #f4f5f8;
+    margin-left: 10px;
+}
+
+.titulosSeries {
+    color: white;
+    margin-left: 10px;
+}
+
+#iconeH {
+    width: 45px;
+    margin-left: 40%
+}
+
+.primeiroslide {
+    margin-left: 10px;
+}
+
+img {
+    width: 110px;
+    margin-top: 10px;
+}
+
+.nomeSerie {
+    color: #f4f5f8;
+    margin-top: 60%;
+    font-weight: bold;
+}
+
+.iconePlay {
+    width: 50px;
+    height: 50px;
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+#titulo {
+    margin-top: 5%;
+    color: #f4f5f8;
+}
+
+.btnOpcoes {
+    margin-top: 10px;
+    color: #f4f5f8;
+    background: #614BA7;
+    border-radius: 10px;
+    width: 240px;
+    font-weight: bold;
+    padding-left: 4%;
+}
+  
+#opcoes {
+    --ion-color: white; /* Cor do texto do IonSelect */
+  }

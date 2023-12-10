@@ -1,0 +1,99 @@
+
+.header {
+    color: #f4f5f8;
+}
+
+.person {
+    color: #614BA7;
+}
+
+.swiper {
+    margin-left: 10px;
+}
+
+.swiperPrincipal {
+    width: 93%;
+}
+
+.titulosSeries {
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#iconeH {
+    width: 60px;
+    margin-left: 40%
+}
+
+.primeiroslide {
+    margin-left: 10px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+ 
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.btnAssitir { 
+    background: #f4f5f8;
+    color: #1E1E1E;;
+    margin: 5%; 
+    bottom: 0;
+    left: 45%;
+    position: absolute;
+    width:80%;
+    height: 35px;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btnAssitir:hover {
+    background: #614BA7;
+    color: #f4f5f8;
+}
+
+.imganimacao:hover {
+    transform: scale(1.05);
+}
+
+.itensMenu {
+    color: #f4f5f8;
+}
+
+#menu-titulo {
+    color: #f4f5f8;
+}
+
+
+#main-content {
+    --ion-background-color: #1E1E1E !important;
+}
+
+.quadrado-no-canto {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .quadrado-pequeno {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 25px;
+    height: 28px;
+    border-radius: 0 0 16px 0;
+    background-color: #614BA7;
+    padding-left: 5px;
+    padding-top: 3px;
+  }
+  
