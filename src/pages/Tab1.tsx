@@ -88,23 +88,23 @@ const Tab1: React.FC = () => {
       >
         <SwiperSlide className='primeiroslide'>
           <img src="series/stranegr.jpeg" alt="Stranger Things Principal" />
-          <button className='btnAssitir'>Assitir</button>
+          <button className='btnAssitir'>Assistir</button>
         </SwiperSlide>
         <SwiperSlide className='segundoslide'>
           <img src="series/alquimia2.webp" alt="Alquimia das Almas" />
-          <button className='btnAssitir'>Assitir</button>
+          <button className='btnAssitir'>Assistir</button>
         </SwiperSlide>
         <SwiperSlide className='terceiroslide'>
           <img src="series/destined.webp" alt="Nosso Destino" />
-          <button className='btnAssitir'>Assitir</button>
+          <button className='btnAssitir'>Assistir</button>
         </SwiperSlide>
         <SwiperSlide className='terceiroslide'>
           <img src="series/pretty-little-liars.jpeg" alt="Nosso Destino" />
-          <button className='btnAssitir'>Assitir</button>
+          <button className='btnAssitir'>Assistir</button>
         </SwiperSlide>
       </Swiper>
 
-      <p className='titulosSeries'>Assitindo</p>
+      <p className='titulosSeries'>Assistindo</p>
 
       <Swiper className='swiper'
         spaceBetween={20}
